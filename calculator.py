@@ -2,9 +2,9 @@ def summary():
     nums = get_nums()
     print(f"total sum is = {sum(nums)}")
     
-def multyply():
+def split():
     nums = get_nums()
-    print(f"work is = {nums[0] * nums[1]}")
+    print(f"work is = {nums[0] / nums[1]}")
    
    
 def get_nums():
@@ -12,5 +12,5 @@ def get_nums():
     num2 = int(input("Enter the second number: "))
     return [num1, num2] 
 
-multyply()
+split()
     
